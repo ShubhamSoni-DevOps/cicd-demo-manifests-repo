@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: shubhamsonirg/cicd-e2e:19
+        image: shubhamsonirg/ci-cd-e2e:${IMAGE_TAG}
         ports:
         - containerPort: 8000
